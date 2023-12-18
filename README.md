@@ -66,4 +66,13 @@ git push -u origin main
 
 ```
 
-https://github.com/SimoneNegrisoli/template_laravel_base.git
+## Iniziallizzazione progetto
+
+```bash
+
+# terminale
+composer install
+
+# copiare env.explample e rinominare la copia come .env, dentro do il comando
+php artisan key:generate
+```
